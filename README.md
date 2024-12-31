@@ -1,8 +1,6 @@
-# React + Vite
+## E-Commerce Frontend
+Overview
+This is a modern and responsive e-commerce frontend built using React and Vite. The project provides a clean and intuitive user interface for an online shopping platform, allowing users to browse products, view details, add items to a cart, and proceed to checkout.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The application is deployed on Vercel for high performance and scalability.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
