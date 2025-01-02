@@ -67,7 +67,7 @@ const {setShowSearch,getCartCount} = useContext(ShopContext);
 
      {/* Sidebar Mobile Menu */}
 
-     <div className={`absolute  border-l-2 border-gray-400 top-0 right-0 bottom-0 overflow-hidden bg-white transition-all ${visibile ?'w-[75%]':'w-0'}`}>
+     <div className={`fixed border-l-2 border-gray-400 top-0 right-0 bottom-0 overflow-hidden bg-white transition-all ${visibile ?'w-[75%] ':'w-0'}`}>
       <div className='flex flex-col'>
       <div>
          <img onClick={()=>setvisible(false)} src={assets.cross_icon} className='w-5 absolute top-10 right-10 cursor-pointer' alt="" />

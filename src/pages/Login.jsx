@@ -7,7 +7,7 @@ const Login = () => {
   return (
     <div className=' flex flex-col mt-8 items-center gap-6'>
 
-      <div  className='text-2xl text-gray-900'>
+      <div  className='text-3xl text-gray-900'>
         <Title text1={current}/>
       </div>
       
@@ -22,7 +22,7 @@ const Login = () => {
         <input required className='border-gray-600 border-2 px-2 py-1 w-full' type="email" placeholder='Email' id="" />
         <input required className='border-gray-600 border-2 px-2 py-1 w-full' type="password" placeholder='Password' id="" />
       </div>
-      <div className='text-gray-900 hover:text-red-700'>
+      <div className='text-gray-900 hover:text-green-700'>
         {
           current == 'Log in' ? <p onClick={()=>setCurrent('Sign Up')}>New user ? Create Account</p> : <p onClick={()=>setCurrent('Log in')}> Already a user ? Log In </p>
         }
